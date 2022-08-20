@@ -1,0 +1,35 @@
+* {
+    background-color:antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+}
+
+button {
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5%;
+    width: 100px;
+}
+
+button:hover {
+    background-color: orangered;;
+}
+
+button:active {
+    background-color: black;
+    color:orangered;
+}
+
+button:disabled {
+    background-color: antiquewhite ;
+    color: gray;
+}
